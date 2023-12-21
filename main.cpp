@@ -1,27 +1,32 @@
 #include <iostream>
+#include <sstream>
+#include <limits>
 
 using namespace std;
 
-int Add2Values(int, int);
+float Add2Values(float, float);
 
 int main()
 {
-    int x, y;
-    cout
-        << "-- Add 2 Values --\n"
-        << "Enter x Values: ";
+    char x, y;
+
+    cout << "-- Add 2 Values --\n"
+         << "Enter x Value: ";
+
     cin >> x;
-    cout << "\nEnter y Value: ";
+
+    cout << "Enter y Value: ";
+    
     cin >> y;
 
-    cout << "\n__________________\n";
-
-    cout << "= " << Add2Values(x, y);
+    cout << "__________________\n";
 
     return 0;
 }
 
-int Add2Values(int x, int y)
+float Add2Values(float x, float y)
 {
-    // add codè here
+    float sum = x + y;
+
+    return sum;
 }
