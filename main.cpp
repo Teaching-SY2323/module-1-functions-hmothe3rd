@@ -1,6 +1,4 @@
 #include <iostream>
-#include <sstream>
-#include <limits>
 
 using namespace std;
 
@@ -19,14 +17,13 @@ int main()
     
     cin >> y;
 
-    cout << "__________________\n";
+    cout << "__________________";
 
     return 0;
 }
 
-float Add2Values(float x, float y)
+int Add2Values(int x, int y)
 {
     float sum = x + y;
 
-    return sum;
 }
