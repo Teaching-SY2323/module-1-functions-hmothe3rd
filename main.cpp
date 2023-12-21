@@ -4,8 +4,8 @@ using namespace std;
 
 float Add2Values(float, float);
 
-int main()
-{
+int main() {
+    
     char x, y;
 
     cout << "-- Add 2 Values --\n"
@@ -17,13 +17,14 @@ int main()
     
     cin >> y;
 
-    cout << "__________________";
+    cout << "__________________\n";
 
     return 0;
 }
 
-int Add2Values(int x, int y)
-{
+float Add2Values(float x, float y) {
+    
     float sum = x + y;
 
+    return sum;
 }
