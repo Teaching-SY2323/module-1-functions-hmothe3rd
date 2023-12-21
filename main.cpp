@@ -26,4 +26,5 @@ int Add2Values(int x, int y)
 {
     float sum = x + y;
 
+    return sum;
 }
