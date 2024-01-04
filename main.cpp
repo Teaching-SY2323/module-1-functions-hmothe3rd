@@ -22,7 +22,7 @@ int main()
     return 0;
 }
 
-int Add2Values(int x, int y)
+float Add2Values(float x, float y)
 {
     float sum = x + y;
 
