@@ -6,7 +6,7 @@ float Add2Values(float, float);
 
 int main()
 {
-    int x, y;
+    float x, y;
 
     cout << "-- Add 2 Values --\n"
          << "Enter x Value: ";
@@ -22,7 +22,7 @@ int main()
     return 0;
 }
 
-float Add2Values(float x, float y)
+int Add2Values(int x, int y)
 {
     float sum = x + y;
 
