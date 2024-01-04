@@ -6,7 +6,7 @@ float Add2Values(float, float);
 
 int main()
 {
-    float x, y;
+    int x, y;
 
     cout << "-- Add 2 Values --\n"
          << "Enter x Value: ";
