@@ -2,7 +2,7 @@
 
 using namespace std;
 
-float Add2Values(float, float);
+int Add2Values(int, int);
 
 int main()
 {
